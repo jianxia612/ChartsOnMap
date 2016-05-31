@@ -14,7 +14,7 @@
 
 ___
 ## 代码使用
-1. 配置模块
+> 1. 配置模块
 ```JavaScript
 var dojoConfig = {
     packages: [{
@@ -23,14 +23,14 @@ var dojoConfig = {
     }]
 };
 ```
-2. 使用AMD形式加载 `Widget/CustomModules/ChartInfoWindow`中的`ChartInfoWindow.js` 和 `geometryUtils.js`,
+> 2. 使用AMD形式加载 `Widget/CustomModules/ChartInfoWindow`中的`ChartInfoWindow.js` 和 `geometryUtils.js`,
 ```JavaScript
 require(["CustomModules/ChartInfoWindow",
          "CustomModules/geometryUtils"], function(ChartInfoWindow, geometryUtils){
             #Coding Here...
          })
 ```
-3. 实例化
+> 3. 实例化
 ```JavaScript
 require(["CustomModules/ChartInfoWindow",
          "CustomModules/geometryUtils"], function(ChartInfoWindow, geometryUtils){
